@@ -229,3 +229,11 @@ the three rows above are the most strongly associated atlases — not FDR-signif
 
 If you use this code or the derived data, please cite the manuscript above and the third-party
 resources listed in `DATA_AVAILABILITY.md`.
+
+## 10. License
+
+The code in this repository is released under the MIT License (see `LICENSE`).
+The derived data in `derived_data/` are released for research use only; no
+patient-level data are included. Third-party components — the spin-test code and
+fsaverage5 surface assets in `PSF_repro_PET/`, and the reference atlases — retain
+their own licenses; see `PSF_repro_PET/README.md`.
