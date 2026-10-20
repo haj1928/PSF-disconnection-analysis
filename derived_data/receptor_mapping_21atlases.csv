@@ -1,0 +1,22 @@
+﻿receptor,neurotransmitter,target,r,spin_p,fdr
+hillmer2016_flubatine,Acetylcholine,a4b2-nACh,0.3826,0.0604,0.4888
+kantonen2020_carfentanil,Opioid,mu-opioid,0.2736,0.1678,0.4888
+norgaard2021_flumazenil,GABA,GABA-A,-0.2549,0.1404,0.4888
+kaller2017_sch23390,Dopamine,D1,-0.157,0.2697,0.4888
+beliveau2017_cumi101,Serotonin,5-HT1A,0.132,0.3192,0.4888
+galovic2021_ge179,Glutamate,NMDA,-0.142,0.2308,0.4888
+lukow2022_ro154513,GABA,GABA-A-a5,0.1122,0.3611,0.4888
+hesse2017_methylreboxetine,Noradrenaline,NET,0.1186,0.1933,0.4888
+savli2012_way100635,Serotonin,5-HT1A(2),0.0781,0.3816,0.4888
+aghourian2017_feobv,Acetylcholine,VAChT,0.0581,0.3477,0.4888
+dukart2018_fpcit,Dopamine,DAT,-0.0768,0.3836,0.4888
+naganawa2020_lsn3172176,Acetylcholine,M1 mAChR,-0.048,0.3506,0.4888
+beliveau2017_sb207145,Serotonin,5-HT4,-0.0781,0.4091,0.4888
+beliveau2017_az10419369,Serotonin,5-HT1B,0.051,0.3746,0.4888
+jaworska2020_fallypride,Dopamine,D2/D3,0.0349,0.4286,0.4888
+beliveau2017_cimbi36,Serotonin,5-HT2A,-0.0765,0.4056,0.4888
+dubois2015_abp688,Glutamate,mGluR5,-0.0528,0.4515,0.4888
+sandiego2015_flb457,Dopamine,D2/D3(2),0.0185,0.4520,0.4888
+finnema2016_ucbj,Synaptic,SV2A,-0.0143,0.3981,0.4888
+savli2012_altanserin,Serotonin,5-HT2A(2),-0.0226,0.4655,0.4888
+beliveau2017_dasb,Serotonin,5-HTT,-0.0344,0.4910,0.4910
