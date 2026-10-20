@@ -1,0 +1,108 @@
+# Python dependencies for the PSF disconnection analysis
+# Install:  pip install -r requirements.txt
+#
+# Frozen on 2026-10-09 from the environment that produced the published
+# numbers (CPython 3.13.14 on Windows). A full `pip freeze` snapshot is kept
+# as comments at the end of this file for exact-environment reference.
+#
+# Note on reproducibility: recomputation of the PRAND cell-type enrichment can
+# differ in the last floating-point digits under a different numpy version
+# (random-stream changes); the pinned versions below are the ones the
+# manuscript values were computed with.
+
+# --- core numerics ---
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.0
+
+# --- Step 2: behavioral PLS ---
+# pyls ships on PyPI as `pyls` (McIntosh & Lobaugh behavioral PLS implementation)
+pyls==0.0.1
+
+# --- Step 3: AHBA expression reconstruction ---
+abagen==0.1.3
+
+# --- Step 5: GSEA (preranked, weighted Kolmogorov-Smirnov) ---
+gseapy==1.3.1
+
+# --- Steps 1, 4, 6, 7: neuroimaging I/O, parcellation, spin tests ---
+nibabel==5.4.2
+nilearn==0.14.0
+# neuromaps is used indirectly (its released normative PET atlas collection is read as NIfTI);
+# install only if you want to fetch the atlases programmatically.
+# neuromaps>=0.4
+
+# --- figures (Step 8) ---
+matplotlib==3.11.1
+pillow==12.3.0           # raster export (PNG at 300/600 dpi) in the figure scripts
+python-pptx==1.0.2       # only for the editable-PPTX figure exports
+
+# --- tables / reporting ---
+openpyxl==3.1.5
+
+# ======================================================================
+# [frozen environment]  full `pip freeze` snapshot for reference
+# (2026-10-09, CPython 3.13.14 on Windows) — the environment that produced
+# the published numbers. Commented out; uncomment only if you need an exact
+# rebuild of the analysis environment.
+# ----------------------------------------------------------------------
+# abagen==0.1.3
+# brainsmash==0.11.0
+# brainspace==0.2.1
+# certifi==2026.7.22
+# cffi==2.1.1
+# charset-normalizer==3.5.1
+# colorama==0.4.6
+# contourpy==1.3.3
+# cryptography==50.0.1
+# cycler==0.12.1
+# fonttools==4.63.0
+# gseapy==1.3.1
+# h5py==3.16.0
+# idna==3.19
+# Jinja2==3.1.6
+# joblib==1.5.3
+# kiwisolver==1.5.0
+# lxml==6.1.2
+# MarkupSafe==3.0.3
+# matplotlib==3.11.1
+# nibabel==5.4.2
+# nilearn==0.14.0
+# numpy==2.5.2
+# openpyxl==3.1.5
+# packaging==26.3
+# pandas==3.0.5
+# pandas-flavor==0.8.1
+# patsy==1.0.2
+# pdfminer.six==20260107
+# pdfplumber==0.11.10
+# pillow==12.3.0
+# pingouin==0.6.1
+# pycparser==3.0
+# pydicom==3.0.2
+# pyls==0.0.1
+# pyparsing==3.3.2
+# pypdf==6.16.2
+# pypdfium2==5.13.0
+# python-dateutil==2.9.0.post0
+# python-docx==1.2.0
+# python-pptx==1.0.2
+# PyYAML==6.0.3
+# reportlab==5.0.1
+# requests==2.34.2
+# scikit-learn==1.8.0
+# scipy==1.18.0
+# seaborn==0.13.2
+# setuptools==80.10.2
+# six==1.17.0
+# statsmodels==0.14.6
+# tabulate==0.10.0
+# threadpoolctl==3.6.0
+# tqdm==4.70.0
+# typing_extensions==4.16.0
+# tzdata==2026.3
+# urllib3==2.7.0
+# vtk==9.6.2
+# xarray==2026.7.0
+# xlrd==2.0.2
+# xlsxwriter==3.2.9
